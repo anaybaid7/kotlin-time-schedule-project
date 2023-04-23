@@ -9,7 +9,7 @@ import javax.mail.internet.MimeMessage
 data class Event(val date: LocalDate, val name: String, val attendees: MutableList<String> = mutableListOf())
 
 fun main() {
-    val scanner = Scanner(System.`in`)
+    val scanner = Scanner(System.'in')
     val events = mutableListOf<Event>()
 
     println("Enter your email address:")
